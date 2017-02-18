@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 8, 2017 9:36:20 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.cedamus.civilrm.entity.ElementaryCommonLife" table="elementary_common_life" schema="local" optimistic-lock="version">
+        <id name="id" type="long">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="commonLifeFk" type="java.lang.Long">
+            <column name="common_life_fk" />
+        </property>
+        <property name="fullName" type="string">
+            <column name="full_name" />
+        </property>
+        <property name="birthDate" type="date">
+            <column name="birth_date" length="13" />
+        </property>
+        <property name="birthPlace" type="string">
+            <column name="birth_place" />
+        </property>
+    </class>
+</hibernate-mapping>

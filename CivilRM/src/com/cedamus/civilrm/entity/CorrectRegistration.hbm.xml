@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 8, 2017 9:36:20 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.cedamus.civilrm.entity.CorrectRegistration" table="correct_registration" schema="local" optimistic-lock="version">
+        <id name="id" type="long">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="number" type="string">
+            <column name="number" />
+        </property>
+        <property name="actNumber" type="string">
+            <column name="act_number" />
+        </property>
+        <property name="year" type="java.lang.Integer">
+            <column name="year" />
+        </property>
+        <property name="fullNamee" type="string">
+            <column name="full_namee" />
+        </property>
+        <property name="birthDate" type="string">
+            <column name="birth_date" />
+        </property>
+        <property name="birthPlace" type="string">
+            <column name="birth_place" />
+        </property>
+        <property name="motherFullName" type="string">
+            <column name="mother_full_name" />
+        </property>
+        <property name="fatherFullName" type="string">
+            <column name="father_full_name" />
+        </property>
+        <property name="object" type="string">
+            <column name="object" />
+        </property>
+        <property name="errataName" type="string">
+            <column name="errata_name" />
+        </property>
+        <property name="correctName" type="string">
+            <column name="correct_name" />
+        </property>
+        <property name="editionDate" type="date">
+            <column name="edition_date" length="13" />
+        </property>
+    </class>
+</hibernate-mapping>

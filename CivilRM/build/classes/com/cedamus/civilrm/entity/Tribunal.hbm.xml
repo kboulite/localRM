@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 8, 2017 9:36:20 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.cedamus.civilrm.entity.Tribunal" table="tribunal" schema="local" optimistic-lock="version">
+        <id name="id" type="long">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="code" type="string">
+            <column name="code" length="32" />
+        </property>
+        <property name="label" type="string">
+            <column name="label" />
+        </property>
+    </class>
+</hibernate-mapping>

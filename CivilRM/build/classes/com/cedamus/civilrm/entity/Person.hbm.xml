@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 8, 2017 9:36:20 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.cedamus.civilrm.entity.Person" table="person" schema="local" optimistic-lock="version">
+        <id name="id" type="long">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="firstNameLatin" type="string">
+            <column name="first_name_latin" />
+        </property>
+        <property name="lastNameLatin" type="string">
+            <column name="last_name_latin" />
+        </property>
+        <property name="firstNameArabic" type="string">
+            <column name="first_name_arabic" />
+        </property>
+        <property name="lastNameArabic" type="string">
+            <column name="last_name_arabic" />
+        </property>
+        <property name="gender" type="string">
+            <column name="gender" length="1" />
+        </property>
+        <property name="birthDate" type="date">
+            <column name="birth_date" length="13" />
+        </property>
+        <property name="hijirBirthDate" type="string">
+            <column name="hijir_birth_date" />
+        </property>
+        <property name="birthPlace" type="string">
+            <column name="birth_place" />
+        </property>
+        <property name="fullNameArabic" type="string">
+            <column name="full_name_arabic" />
+        </property>
+        <property name="fullNameLatin" type="string">
+            <column name="full_name_latin" />
+        </property>
+        <property name="professionLatin" type="string">
+            <column name="profession_latin" />
+        </property>
+        <property name="professionArabic" type="string">
+            <column name="profession_arabic" />
+        </property>
+        <property name="adressLatin" type="string">
+            <column name="adress_latin" />
+        </property>
+        <property name="adressArabic" type="string">
+            <column name="adress_arabic" />
+        </property>
+        <property name="relativeFk" type="java.lang.Long">
+            <column name="relative_fk" />
+        </property>
+    </class>
+</hibernate-mapping>

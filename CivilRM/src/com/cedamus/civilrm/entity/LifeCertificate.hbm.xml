@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 8, 2017 9:36:20 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.cedamus.civilrm.entity.LifeCertificate" table="life_certificate" schema="local" optimistic-lock="version">
+        <id name="id" type="long">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="number" type="string">
+            <column name="number" length="32" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="last_name" />
+        </property>
+        <property name="deliveryDate" type="date">
+            <column name="delivery_date" length="13" />
+        </property>
+        <property name="firstName" type="string">
+            <column name="first_name" />
+        </property>
+        <property name="familyName" type="string">
+            <column name="family_name" />
+        </property>
+        <property name="birthDate" type="date">
+            <column name="birth_date" length="13" />
+        </property>
+        <property name="birthPlace" type="string">
+            <column name="birth_place" />
+        </property>
+        <property name="motherFullName" type="string">
+            <column name="mother_full_name" />
+        </property>
+        <property name="fatherFullName" type="string">
+            <column name="father_full_name" />
+        </property>
+        <property name="editionDate" type="date">
+            <column name="edition_date" length="13" />
+        </property>
+        <property name="autorityAgentFk" type="java.lang.Long">
+            <column name="autority_agent_fk" />
+        </property>
+    </class>
+</hibernate-mapping>

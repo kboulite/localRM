@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/beansbinding-1.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/cdi-api-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/classmate-1.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/com.lowagie.text-2.1.7.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/el-api-2.2.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/geronimo-jta_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/hibernate-commons-annotations-5.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/hibernate-core-5.2.6.Final.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/jandex-2.0.3.Final.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/jasperreports.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/javassist-3.20.0-GA.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/jboss-logging-3.3.0.Final.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/org.apache.commons.collections.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="E:/CedamusJar/postgresql-9.1-901-1.jdbc4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
